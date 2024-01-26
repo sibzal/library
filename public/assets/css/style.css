@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+body{
+    background: #f6f6f6;
+    font-family: "Nunito", sans-serif;
+}
+
+/* шапка сайта */
+.logo{
+    font-size: 24px;
+    color: #31da2b;
+    font-weight: 600;
+}
+header{
+    padding: 30px 15px;
+    background: #fff;
+}
+.menu-link{
+    color: #323232;
+    font-weight: 500;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header__menu{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+.btn{
+    padding: 8px 15px;
+    background: #31da2b;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+.main {
+    flex: 1 1 auto;
+}
